@@ -95,7 +95,8 @@
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
             android:layout_marginBottom="8dp"
-            app:layout_constraintBottom_toBottomOf="parent"/>
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:onClick="onTappedSaveButton"/>
 
     <ImageButton
             android:layout_width="wrap_content"
