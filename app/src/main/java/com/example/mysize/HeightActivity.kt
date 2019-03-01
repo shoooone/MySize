@@ -53,6 +53,7 @@ class HeightActivity : AppCompatActivity() {
 
     }
 
+
     override fun onPause() {
         super.onPause()
         val pref = PreferenceManager.getDefaultSharedPreferences(this)
