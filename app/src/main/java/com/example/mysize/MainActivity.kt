@@ -5,8 +5,8 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.preference.PreferenceManager
 import android.view.View
-import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageButton
 
 class MainActivity : AppCompatActivity() {
 
@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         editWaist.setText(pref.getString(WAIST, ""))
         editInseam.setText(pref.getString(INSEAM, ""))
 
-        findViewById<Button>(R.id.height_button).setOnClickListener {
+        findViewById<ImageButton>(R.id.height_button).setOnClickListener {
             startActivity(Intent(this, HeightActivity::class.java))
         }
 
